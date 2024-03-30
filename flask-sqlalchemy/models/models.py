@@ -4,7 +4,6 @@ from sqlalchemy.dialects.mysql import TINYINT
 
 db = SQLAlchemy()
 
-
 class Product_Category(db.Model):
     __tablename__ = 'product_categories'
 
